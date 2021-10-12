@@ -1,0 +1,149 @@
+
+CONTEUDO ESSENCIAL DO HTML:
+Definir o título e os parágrafos de um texto utilizando as tags <h1>TITULO e <p>PARAGRAFO, respectivamente
+Deixar texto negrito utilizando a tag <strong>
+Deixar texto em itálico, utilizando a tag <em>
+Tag DOCTYPE, definimos qual versão do HTML estamos utilizando
+Tag <html>, que marca o conteúdo a ser renderizado/mostrado no navegador dentro desta tag, podemos definir a linguagem da página, através da propriedade lang
+Passar as informações do encoding/codificada da nossa página para o navegador, através da tag <meta> e da propriedade charset
+Definir o título de uma página, através da tag <title>
+Separar as informações que estão sendo passadas para o navegador, utilizando a tag <head>
+Separar o conteúdo da página, utilizando a tag <body>
+
+ALINHAMENTOS,CORES:
+Alinhamento deles (text-align)
+Tamanho da fonte (font-size)
+Cor de fundo (background)
+Cor do texto (color)
+Formas de chamar/usar cor através do nome da cor,através do seu hexadecimal,através do seu RGB
+Altura do elemento, através da propriedade height
+Largura do elemento, através da propriedade width
+Espaçamento interno do elemento, através da propriedade padding
+Espaçamento externo do elemento, através da propriedade margin
+Adicionar uma imagem à nossa página ex:<img id="banner" src="banner.jpg">
+Adicionar um link à nossa página ex:<link rel="stylesheet" href="style.css">
+listas não-ordenadas <ul>e listas ordenadas<ol>
+Para cada um dos itens da lista, utilizamos a tag <li>
+Divisões de conteúdo, utilizando a tag <div>
+Os comportamentos inline e block
+
+
+
+
+ FORMAS DE USAR O CSSS:
+CSS inline: E a linha onde temos a nossa tag html, adicionamos a propriedade do CSS
+Tag <style>:Dentro dessa tag, podemos colocar marcações de CSS referentes aos elementos que temos no nosso HTML
+A apresentação do CSS com um arquivo externo
+
+O conceito das classes no CSS:
+Classes: servem para marcar itens, que são repetíveis
+Não é recomendado criar estilos usando tags ex: 
+
+ ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+O ideal é usarmos classes para tudo ex: 
+.titulo-principal {    
+padding-left: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Como transformar o texto para ter todas as letras maiúsculas
+Como deixar o texto em negrito com CSS
+Como remover a decoração do texto
+
+Como remover os estilos que o navegador cria automaticamente
+Como funciona os posicionamentos static, relative e absolute dos elementos
+Como posicionar o cabeçalho da nossa página
+
+A tag main, para o conteúdo principal da nossa página
+A criar listas complexas, com títulos, imagens e parágrafos
+A utilizar o inline-block
+A praticar e estilizar o conteúdo principal da nossa página
+Através do CSS, aplicar bordas nos elementos.
+Os diferentes tipos de bordas.
+A deixar a borda arredondada.
+
+\Algumas pseudo-classes CSS
+hover, quando o usuário passa o cursor sobre o elemento
+active, quando um elemento está sendo ativado pelo usuário
+A mudar a cor do texto e/ou da borda de um elemento, quando o usuário passar o cursor sobre o mesmo
+A mudar a cor da borda de um elemento, quando o mesmo estiver sendo ativado pelo usuário
+
+A tag footer, para o rodapé da nossa página
+Que, com CSS, podemos colocar uma imagem de fundo em um elemento
+Quando colocamos uma imagem de fundo em um elemento, o CSS, por padrão, copia e cola a imagem diversas vezes até ocupar todo o espaço do elemento
+A tabela Unicode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A criar um formulário HTML
+A tag que o representa é a <form>
+A tag <input>, para a entrada de dados do usuário
+A criar uma etiqueta para o input, com a tag <label>
+A conectar um input com o seu label
+Colocamos um id para o input e associamos esse id ao atributo for do label
+Alguns tipos de input, como text e submit
+Que label possui o display inline e o input possui display inline-block
+A estilizar o nosso formulário
+
+O textarea, para entradas de texto de mais de uma linha
+O input do tipo radio
+Como agrupar vários input do tipo radio, impedindo que mais de um input seja selecionado
+O input do tipo checkbox
+Que podemos criar um input dentro de um label, assim associando-os
+Mais estilizações para a nossa página
+Como funciona a hierarquia no CSS
+O select, que é seletor, um campo de seleção de um item, e o option, que representa cada opção do seletor
+
+Alguns tipos de inputs para celular: email, tel, number, password, date, datetime, month e search
+Como não permitir que um campo não seja preenchido, através do atributo required
+Como exibir uma sugestão de preenchimento para os campos, através do atributo placeholder
+Como deixar uma opção marcada por padrão nos nossos input radio e checkbox, através do atributo checked
+Como estruturar melhor o nosso código com fieldset e legend
+Como adicionar uma alternativa à imagem, descrevendo-a, com o atributo alt
+
+Como estilizar o botão de envio de formulário
+A realizar transições nos nossos elementos, com a propriedade CSS transition
+A modificar o estilo do ponteiro do mouse, quando passar por cima de determinado elemento, através da propriedade CSS cursor
+A realizar transformações nos nossos elementos, como aumentar proporcionalmente a escala de determinado elemento ou rotacioná-lo, através da propriedade CSS transform
+
+A criar uma tabela HTML
+A tag table, que representa a tabela
+A tag tr, que representa a linha da tabela
+A tag td, que representa a célula da tabela
+A tag thead, que representa o cabeçalho da tabela
+A tag tbody, que representa o corpo da tabela
+A tag th, que representa a célula do cabeçalho da tabela
+A tag tfoot, que representa o rodapé da tabela
+A estilizar a tabela
+
+
+
+
